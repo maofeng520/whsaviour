@@ -1,0 +1,51 @@
+2024-03-31 16:24:57,401 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-03-31 16:24:57,401 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-03-31 16:24:57,401 | INFO | requests_utils.py: 9|发送请求的headers为：{"Content-Type":"application/json"}
+2024-03-31 16:24:57,401 | INFO | requests_utils.py: 10|发送请求的data为：{
+"username": "admin",
+"password":"10010.com"
+}
+2024-03-31 16:24:57,612 | INFO | requests_utils.py: 24|响应状态码为：200
+2024-03-31 16:24:57,612 | INFO | requests_utils.py: 25|响应success为：False
+2024-03-31 16:24:57,613 | INFO | requests_utils.py: 26|响应message为：JSON parse error: Cannot construct instance of `com.wellhome.modules.system.model.SysLoginModel` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('{
+"username": "admin",
+"password":"10010.com"
+}'); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.wellhome.modules.system.model.SysLoginModel` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('{
+"username": "admin",
+"password":"10010.com"
+}')
+ at [Source: (PushbackInputStream); line: 1, column: 1]
+2024-03-31 16:24:57,619 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-03-31 16:24:57,619 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-03-31 16:24:57,619 | INFO | requests_utils.py: 9|发送请求的headers为：{"Content-Type":"application/json"}
+2024-03-31 16:24:57,619 | INFO | requests_utils.py: 10|发送请求的data为：{
+"username": "admin",
+"password":"10010"
+}
+2024-03-31 16:24:57,670 | INFO | requests_utils.py: 24|响应状态码为：200
+2024-03-31 16:24:57,671 | INFO | requests_utils.py: 25|响应success为：False
+2024-03-31 16:24:57,671 | INFO | requests_utils.py: 26|响应message为：JSON parse error: Cannot construct instance of `com.wellhome.modules.system.model.SysLoginModel` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('{
+"username": "admin",
+"password":"10010"
+}'); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.wellhome.modules.system.model.SysLoginModel` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('{
+"username": "admin",
+"password":"10010"
+}')
+ at [Source: (PushbackInputStream); line: 1, column: 1]
+2024-03-31 16:24:57,675 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-03-31 16:24:57,675 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-03-31 16:24:57,675 | INFO | requests_utils.py: 9|发送请求的headers为：{"Content-Type":"application/json"}
+2024-03-31 16:24:57,675 | INFO | requests_utils.py: 10|发送请求的data为：{
+"username": "admin",
+"password":""
+}
+2024-03-31 16:24:57,728 | INFO | requests_utils.py: 24|响应状态码为：200
+2024-03-31 16:24:57,729 | INFO | requests_utils.py: 25|响应success为：False
+2024-03-31 16:24:57,729 | INFO | requests_utils.py: 26|响应message为：JSON parse error: Cannot construct instance of `com.wellhome.modules.system.model.SysLoginModel` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('{
+"username": "admin",
+"password":""
+}'); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.wellhome.modules.system.model.SysLoginModel` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('{
+"username": "admin",
+"password":""
+}')
+ at [Source: (PushbackInputStream); line: 1, column: 1]

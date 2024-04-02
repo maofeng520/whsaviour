@@ -1,0 +1,41 @@
+2024-04-01 20:50:20,616 | INFO | test_login.py: 25|------开始执行测试用例，开始时间为：2024-04-01 20:50:20------
+2024-04-01 20:50:20,617 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 20:50:20,617 | INFO | test_login.py: 82|正在执行正常登录用例
+2024-04-01 20:50:20,617 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-04-01 20:50:20,617 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-04-01 20:50:20,617 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-04-01 20:50:20,617 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': '10010.com'}
+2024-04-01 20:50:20,691 | INFO | requests_utils.py: 23|响应状态码为：200
+2024-04-01 20:50:20,692 | INFO | requests_utils.py: 24|响应success为：True
+2024-04-01 20:50:20,692 | INFO | requests_utils.py: 25|响应message为：登录成功
+2024-04-01 20:50:20,692 | INFO | test_login.py: 84|用例执行成功，请求的结果为：<Response [200]>
+2024-04-01 20:50:20,692 | INFO | test_login.py: 85|用例断言成功，预期结果为：True，实际结果为：<Response [200]>
+2024-04-01 20:50:20,692 | INFO | test_login.py: 92|relation为：，res_data为<Response [200]>
+2024-04-01 20:50:20,784 | INFO | mysql.py: 28|执行sql语句成功！语句为：insert into test_result_record(`case_id`, `times`, `response`, `result`) values ("1", "2024-04-01 20:50:20", "<Response [200]>", "False") 
+2024-04-01 20:50:20,848 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 20:50:20,848 | INFO | test_login.py: 82|正在执行密码错误用例
+2024-04-01 20:50:20,848 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-04-01 20:50:20,848 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-04-01 20:50:20,848 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-04-01 20:50:20,848 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': '10010'}
+2024-04-01 20:50:20,894 | INFO | requests_utils.py: 23|响应状态码为：200
+2024-04-01 20:50:20,895 | INFO | requests_utils.py: 24|响应success为：False
+2024-04-01 20:50:20,895 | INFO | requests_utils.py: 25|响应message为：用户名或密码错误
+2024-04-01 20:50:20,895 | INFO | test_login.py: 84|用例执行成功，请求的结果为：<Response [200]>
+2024-04-01 20:50:20,895 | INFO | test_login.py: 85|用例断言成功，预期结果为：False，实际结果为：<Response [200]>
+2024-04-01 20:50:20,895 | INFO | test_login.py: 92|relation为：None，res_data为<Response [200]>
+2024-04-01 20:50:21,151 | INFO | mysql.py: 28|执行sql语句成功！语句为：insert into test_result_record(`case_id`, `times`, `response`, `result`) values ("2", "2024-04-01 20:50:20", "<Response [200]>", "False") 
+2024-04-01 20:50:21,170 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 20:50:21,170 | INFO | test_login.py: 82|正在执行密码为空用例
+2024-04-01 20:50:21,170 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-04-01 20:50:21,170 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-04-01 20:50:21,170 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-04-01 20:50:21,170 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': ''}
+2024-04-01 20:50:21,226 | INFO | requests_utils.py: 23|响应状态码为：200
+2024-04-01 20:50:21,226 | INFO | requests_utils.py: 24|响应success为：False
+2024-04-01 20:50:21,227 | INFO | requests_utils.py: 25|响应message为：用户名或密码错误
+2024-04-01 20:50:21,227 | INFO | test_login.py: 84|用例执行成功，请求的结果为：<Response [200]>
+2024-04-01 20:50:21,227 | INFO | test_login.py: 85|用例断言成功，预期结果为：False，实际结果为：<Response [200]>
+2024-04-01 20:50:21,227 | INFO | test_login.py: 92|relation为：None，res_data为<Response [200]>
+2024-04-01 20:50:21,601 | INFO | mysql.py: 28|执行sql语句成功！语句为：insert into test_result_record(`case_id`, `times`, `response`, `result`) values ("3", "2024-04-01 20:50:21", "<Response [200]>", "False") 
+2024-04-01 20:50:21,617 | INFO | test_login.py: 28|------执行测试结束，完成时间为：2024-04-01 20:50:20------

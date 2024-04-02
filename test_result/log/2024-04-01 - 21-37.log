@@ -1,0 +1,79 @@
+2024-04-01 21:37:20,160 | INFO | test_login.py: 25|------开始执行测试用例，开始时间为：2024-04-01 21:37:20------
+2024-04-01 21:37:20,161 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 21:37:20,163 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 21:37:20,165 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 21:37:20,167 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 21:37:20,168 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 21:37:20,170 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 21:37:20,172 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 21:37:20,172 | INFO | test_login.py: 28|------执行测试结束，完成时间为：2024-04-01 21:37:20------
+2024-04-01 21:37:49,851 | INFO | test_login.py: 25|------开始执行测试用例，开始时间为：2024-04-01 21:37:49------
+2024-04-01 21:37:49,852 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 21:37:49,852 | INFO | test_login.py: 71|***正在执行正常登录用例***
+2024-04-01 21:37:49,852 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-04-01 21:37:49,852 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-04-01 21:37:49,852 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-04-01 21:37:49,852 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': '10010.com'}
+2024-04-01 21:37:51,021 | INFO | requests_utils.py: 23|响应状态码为：200
+2024-04-01 21:37:51,022 | INFO | requests_utils.py: 24|响应success为：True
+2024-04-01 21:37:51,022 | INFO | requests_utils.py: 25|响应message为：登录成功
+2024-04-01 21:37:51,023 | INFO | test_login.py: 73|用例执行成功，请求的结果为：True
+2024-04-01 21:37:51,024 | INFO | test_login.py: 88|用例断言成功
+2024-04-01 21:37:51,103 | INFO | mysql.py: 28|执行sql语句成功！
+2024-04-01 21:37:51,109 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 21:37:51,109 | INFO | test_login.py: 71|***正在执行密码错误用例***
+2024-04-01 21:37:51,109 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-04-01 21:37:51,109 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-04-01 21:37:51,109 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-04-01 21:37:51,109 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': '10010'}
+2024-04-01 21:37:51,162 | INFO | requests_utils.py: 23|响应状态码为：200
+2024-04-01 21:37:51,162 | INFO | requests_utils.py: 24|响应success为：False
+2024-04-01 21:37:51,162 | INFO | requests_utils.py: 25|响应message为：用户名或密码错误
+2024-04-01 21:37:51,162 | INFO | test_login.py: 73|用例执行成功，请求的结果为：False
+2024-04-01 21:37:51,162 | INFO | test_login.py: 88|用例断言成功
+2024-04-01 21:37:51,260 | INFO | mysql.py: 28|执行sql语句成功！
+2024-04-01 21:37:51,266 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 21:37:51,267 | INFO | test_login.py: 71|***正在执行密码为空用例***
+2024-04-01 21:37:51,267 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-04-01 21:37:51,267 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-04-01 21:37:51,267 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-04-01 21:37:51,267 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': ''}
+2024-04-01 21:37:51,312 | INFO | requests_utils.py: 23|响应状态码为：200
+2024-04-01 21:37:51,313 | INFO | requests_utils.py: 24|响应success为：False
+2024-04-01 21:37:51,313 | INFO | requests_utils.py: 25|响应message为：用户名或密码错误
+2024-04-01 21:37:51,314 | INFO | test_login.py: 73|用例执行成功，请求的结果为：False
+2024-04-01 21:37:51,314 | INFO | test_login.py: 88|用例断言成功
+2024-04-01 21:37:51,385 | INFO | mysql.py: 28|执行sql语句成功！
+2024-04-01 21:37:51,482 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 21:37:51,482 | INFO | test_login.py: 71|***正在执行新增防控知识分类用例***
+2024-04-01 21:37:51,482 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/knowledgeClassification/add
+2024-04-01 21:37:51,482 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-04-01 21:37:51,482 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-04-01 21:37:51,482 | INFO | requests_utils.py: 10|发送请求的data为：{'name': '测试'}
+2024-04-01 21:37:51,531 | INFO | requests_utils.py: 23|响应状态码为：500
+2024-04-01 21:37:51,532 | INFO | test_login.py: 75|用例执行失败，请查看日志找原因。
+2024-04-01 21:37:51,600 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 21:37:51,600 | INFO | test_login.py: 71|***正在执行查询防控知识分类用例***
+2024-04-01 21:37:51,600 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/knowledgeClassification/list
+2024-04-01 21:37:51,600 | INFO | requests_utils.py: 8|发送请求的method为：get
+2024-04-01 21:37:51,600 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-04-01 21:37:51,600 | INFO | requests_utils.py: 10|发送请求的data为：{}
+2024-04-01 21:37:51,650 | INFO | requests_utils.py: 23|响应状态码为：500
+2024-04-01 21:37:51,650 | INFO | test_login.py: 75|用例执行失败，请查看日志找原因。
+2024-04-01 21:37:51,661 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 21:37:51,661 | INFO | test_login.py: 71|***正在执行编辑防控知识分类用例***
+2024-04-01 21:37:51,661 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/knowledgeClassification/edit
+2024-04-01 21:37:51,661 | INFO | requests_utils.py: 8|发送请求的method为：put
+2024-04-01 21:37:51,661 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-04-01 21:37:51,661 | INFO | requests_utils.py: 10|发送请求的data为：{'name': '测试123', 'id': '${id}'}
+2024-04-01 21:37:51,711 | INFO | requests_utils.py: 23|响应状态码为：500
+2024-04-01 21:37:51,712 | INFO | test_login.py: 75|用例执行失败，请查看日志找原因。
+2024-04-01 21:37:51,726 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 21:37:51,726 | INFO | test_login.py: 71|***正在执行删除防控知识分类用例***
+2024-04-01 21:37:51,726 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/knowledgeClassification/delete
+2024-04-01 21:37:51,726 | INFO | requests_utils.py: 8|发送请求的method为：delete
+2024-04-01 21:37:51,726 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-04-01 21:37:51,726 | INFO | requests_utils.py: 10|发送请求的data为：{'id': '${id}'}
+2024-04-01 21:37:51,781 | INFO | requests_utils.py: 23|响应状态码为：500
+2024-04-01 21:37:51,781 | INFO | test_login.py: 75|用例执行失败，请查看日志找原因。
+2024-04-01 21:37:51,791 | INFO | test_login.py: 28|------执行测试结束，完成时间为：2024-04-01 21:37:49------

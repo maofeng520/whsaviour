@@ -1,0 +1,43 @@
+2024-03-31 23:49:02,042 | INFO | test_login.py: 25|------开始执行测试用例，开始时间为：2024-03-31 23:49:02------
+2024-03-31 23:49:02,043 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-03-31 23:49:02,043 | INFO | test_login.py: 82|正在执行正常登录用例
+2024-03-31 23:49:02,043 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-03-31 23:49:02,043 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-03-31 23:49:02,043 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-03-31 23:49:02,043 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': '10010.com'}
+2024-03-31 23:49:02,327 | INFO | requests_utils.py: 23|响应状态码为：200
+2024-03-31 23:49:02,327 | INFO | requests_utils.py: 24|响应success为：True
+2024-03-31 23:49:02,328 | INFO | requests_utils.py: 25|响应message为：登录成功
+2024-03-31 23:49:02,328 | INFO | test_login.py: 85|用例执行成功，请求的结果为：None
+2024-03-31 23:49:02,328 | INFO | test_login.py: 104|用例断言失败
+2024-03-31 23:49:02,330 | INFO | mysql.py: 30|insert into test_result_record(`case_id`, `times`, `response`, `result`) values ("None", "2024-03-31 23:49:02", "false", "1") 
+2024-03-31 23:49:02,330 | ERROR | mysql.py: 31|执行sql语句出错了，错误原因为:(1366, "Incorrect integer value: 'None' for column 'case_id' at row 1")
+2024-03-31 23:49:02,389 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-03-31 23:49:02,390 | INFO | test_login.py: 82|正在执行密码错误用例
+2024-03-31 23:49:02,390 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-03-31 23:49:02,390 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-03-31 23:49:02,390 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-03-31 23:49:02,390 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': '10010'}
+2024-03-31 23:49:02,436 | INFO | requests_utils.py: 23|响应状态码为：200
+2024-03-31 23:49:02,437 | INFO | requests_utils.py: 24|响应success为：False
+2024-03-31 23:49:02,437 | INFO | requests_utils.py: 25|响应message为：用户名或密码错误
+2024-03-31 23:49:02,437 | INFO | test_login.py: 85|用例执行成功，请求的结果为：None
+2024-03-31 23:49:02,437 | INFO | test_login.py: 104|用例断言失败
+2024-03-31 23:49:02,437 | INFO | mysql.py: 30|insert into test_result_record(`case_id`, `times`, `response`, `result`) values ("None", "2024-03-31 23:49:02", "false", "2") 
+2024-03-31 23:49:02,437 | ERROR | mysql.py: 31|执行sql语句出错了，错误原因为:(1366, "Incorrect integer value: 'None' for column 'case_id' at row 1")
+2024-03-31 23:49:02,443 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-03-31 23:49:02,443 | INFO | test_login.py: 82|正在执行密码为空用例
+2024-03-31 23:49:02,443 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-03-31 23:49:02,443 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-03-31 23:49:02,443 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-03-31 23:49:02,443 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': ''}
+2024-03-31 23:49:02,486 | INFO | requests_utils.py: 23|响应状态码为：200
+2024-03-31 23:49:02,487 | INFO | requests_utils.py: 24|响应success为：False
+2024-03-31 23:49:02,487 | INFO | requests_utils.py: 25|响应message为：用户名或密码错误
+2024-03-31 23:49:02,487 | INFO | test_login.py: 85|用例执行成功，请求的结果为：None
+2024-03-31 23:49:02,487 | INFO | test_login.py: 104|用例断言失败
+2024-03-31 23:49:02,488 | INFO | mysql.py: 30|insert into test_result_record(`case_id`, `times`, `response`, `result`) values ("None", "2024-03-31 23:49:02", "false", "3") 
+2024-03-31 23:49:02,488 | ERROR | mysql.py: 31|执行sql语句出错了，错误原因为:(1366, "Incorrect integer value: 'None' for column 'case_id' at row 1")
+2024-03-31 23:49:02,493 | INFO | test_login.py: 28|------执行测试结束，完成时间为：2024-03-31 23:49:02------
+2024-03-31 23:49:16,015 | INFO | mysql.py: 30|insert into test_result_record(`case_id`, `times`, `response`, `result`) values ("1", "2024-03-31 23:49:16", ""中国"", "1") 
+2024-03-31 23:49:16,015 | ERROR | mysql.py: 31|执行sql语句出错了，错误原因为:(1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'中国"", "1")\' at line 1')

@@ -1,0 +1,2 @@
+2024-03-31 23:36:21,239 | INFO | mysql.py: 30|insert into test_result_record(`case_id`, `times`, `response`, `result`) values ("1", "2024-03-31 23:36:21", ""1"", "1") 
+2024-03-31 23:36:21,239 | ERROR | mysql.py: 31|执行sql语句出错了，错误原因为:(1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'1"", "1")\' at line 1')

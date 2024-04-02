@@ -1,0 +1,40 @@
+2024-03-31 20:35:09,671 | INFO | test_login.py: 21|------开始执行测试用例，开始时间为：2024-03-31 20:35:09------
+2024-03-31 20:35:09,671 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-03-31 20:35:09,672 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin
+2024-03-31 20:35:09,672 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-03-31 20:35:09,672 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-03-31 20:35:09,672 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': '10010.com'}
+2024-03-31 20:35:11,944 | INFO | requests_utils.py: 23|响应状态码为：200
+2024-03-31 20:35:12,138 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-03-31 20:35:12,138 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin
+2024-03-31 20:35:12,138 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-03-31 20:35:12,138 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-03-31 20:35:12,138 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': '10010'}
+2024-03-31 20:35:12,230 | INFO | requests_utils.py: 23|响应状态码为：200
+2024-03-31 20:35:12,252 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-03-31 20:35:12,252 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin
+2024-03-31 20:35:12,252 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-03-31 20:35:12,252 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-03-31 20:35:12,252 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': '1'}
+2024-03-31 20:35:12,348 | INFO | requests_utils.py: 23|响应状态码为：200
+2024-03-31 20:35:12,373 | INFO | test_login.py: 24|------执行测试结束，完成时间为：2024-03-31 20:35:09------
+2024-03-31 20:35:39,550 | INFO | test_login.py: 21|------开始执行测试用例，开始时间为：2024-03-31 20:35:39------
+2024-03-31 20:35:39,551 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-03-31 20:35:39,551 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-adminhttp://systest.whsaviour.com/platform-admin/sys/login
+2024-03-31 20:35:39,551 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-03-31 20:35:39,551 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-03-31 20:35:39,551 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': '10010.com'}
+2024-03-31 20:35:39,605 | INFO | requests_utils.py: 23|响应状态码为：404
+2024-03-31 20:35:39,698 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-03-31 20:35:39,698 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-adminhttp://systest.whsaviour.com/platform-admin/sys/login
+2024-03-31 20:35:39,698 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-03-31 20:35:39,698 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-03-31 20:35:39,698 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': '10010'}
+2024-03-31 20:35:39,741 | INFO | requests_utils.py: 23|响应状态码为：404
+2024-03-31 20:35:39,765 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-03-31 20:35:39,765 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-adminhttp://systest.whsaviour.com/platform-admin/sys/login
+2024-03-31 20:35:39,765 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-03-31 20:35:39,765 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-03-31 20:35:39,765 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': '1'}
+2024-03-31 20:35:39,816 | INFO | requests_utils.py: 23|响应状态码为：404
+2024-03-31 20:35:39,840 | INFO | test_login.py: 24|------执行测试结束，完成时间为：2024-03-31 20:35:39------

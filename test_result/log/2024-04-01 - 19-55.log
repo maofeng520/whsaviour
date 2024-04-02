@@ -1,0 +1,35 @@
+2024-04-01 19:55:49,287 | INFO | test_login.py: 25|------开始执行测试用例，开始时间为：2024-04-01 19:55:49------
+2024-04-01 19:55:49,288 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 19:55:49,288 | INFO | test_login.py: 82|正在执行正常登录用例
+2024-04-01 19:55:49,288 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-04-01 19:55:49,288 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-04-01 19:55:49,289 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-04-01 19:55:49,289 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': '10010.com'}
+2024-04-01 19:55:49,365 | INFO | requests_utils.py: 23|响应状态码为：200
+2024-04-01 19:55:49,366 | INFO | requests_utils.py: 24|响应success为：True
+2024-04-01 19:55:49,366 | INFO | requests_utils.py: 25|响应message为：登录成功
+2024-04-01 19:55:49,366 | INFO | test_login.py: 84|用例执行成功，请求的结果为：<Response [200]>
+2024-04-01 19:55:49,616 | INFO | mysql.py: 28|insert into test_result_record(`case_id`, `times`, `response`, `result`) values ("1", "2024-04-01 19:55:49", "<Response [200]>", "False") 
+2024-04-01 19:55:49,676 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 19:55:49,676 | INFO | test_login.py: 82|正在执行密码错误用例
+2024-04-01 19:55:49,676 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-04-01 19:55:49,676 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-04-01 19:55:49,676 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-04-01 19:55:49,676 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': '10010'}
+2024-04-01 19:55:49,731 | INFO | requests_utils.py: 23|响应状态码为：200
+2024-04-01 19:55:49,731 | INFO | requests_utils.py: 24|响应success为：False
+2024-04-01 19:55:49,731 | INFO | requests_utils.py: 25|响应message为：用户名或密码错误
+2024-04-01 19:55:49,731 | INFO | test_login.py: 84|用例执行成功，请求的结果为：<Response [200]>
+2024-04-01 19:55:49,816 | INFO | mysql.py: 28|insert into test_result_record(`case_id`, `times`, `response`, `result`) values ("2", "2024-04-01 19:55:49", "<Response [200]>", "False") 
+2024-04-01 19:55:49,828 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 19:55:49,828 | INFO | test_login.py: 82|正在执行密码为空用例
+2024-04-01 19:55:49,828 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-04-01 19:55:49,828 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-04-01 19:55:49,828 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-04-01 19:55:49,828 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': ''}
+2024-04-01 19:55:49,872 | INFO | requests_utils.py: 23|响应状态码为：200
+2024-04-01 19:55:49,872 | INFO | requests_utils.py: 24|响应success为：False
+2024-04-01 19:55:49,873 | INFO | requests_utils.py: 25|响应message为：用户名或密码错误
+2024-04-01 19:55:49,873 | INFO | test_login.py: 84|用例执行成功，请求的结果为：<Response [200]>
+2024-04-01 19:55:49,982 | INFO | mysql.py: 28|insert into test_result_record(`case_id`, `times`, `response`, `result`) values ("3", "2024-04-01 19:55:49", "<Response [200]>", "False") 
+2024-04-01 19:55:49,995 | INFO | test_login.py: 28|------执行测试结束，完成时间为：2024-04-01 19:55:49------

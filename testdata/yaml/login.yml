@@ -1,0 +1,7 @@
+test_login:
+  test_login_001:
+    username: "admin"
+    password: "10010.com"
+  test_login_002:
+    username: "root"
+    password: "123456"

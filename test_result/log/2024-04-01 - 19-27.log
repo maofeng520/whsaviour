@@ -1,0 +1,41 @@
+2024-04-01 19:27:55,224 | INFO | test_login.py: 25|------开始执行测试用例，开始时间为：2024-04-01 19:27:55------
+2024-04-01 19:27:55,225 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 19:27:55,225 | INFO | test_login.py: 82|正在执行正常登录用例，用例id为：1
+2024-04-01 19:27:55,225 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-04-01 19:27:55,225 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-04-01 19:27:55,225 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-04-01 19:27:55,226 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': '10010.com'}
+2024-04-01 19:27:55,314 | INFO | requests_utils.py: 23|响应状态码为：200
+2024-04-01 19:27:55,315 | INFO | requests_utils.py: 24|响应success为：True
+2024-04-01 19:27:55,315 | INFO | requests_utils.py: 25|响应message为：登录成功
+2024-04-01 19:27:55,315 | INFO | test_login.py: 85|用例执行成功，请求的结果为：None
+2024-04-01 19:27:55,316 | INFO | test_login.py: 104|用例断言失败
+2024-04-01 19:27:55,317 | INFO | mysql.py: 30|insert into test_result_record(`case_id`, `times`, `response`, `result`) values ("None", "2024-04-01 19:27:55", "False", "1") 
+2024-04-01 19:27:55,318 | ERROR | mysql.py: 31|执行sql语句出错了，错误原因为:(1366, "Incorrect integer value: 'None' for column 'case_id' at row 1")
+2024-04-01 19:27:55,378 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 19:27:55,378 | INFO | test_login.py: 82|正在执行密码错误用例，用例id为：2
+2024-04-01 19:27:55,378 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-04-01 19:27:55,378 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-04-01 19:27:55,378 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-04-01 19:27:55,378 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': '10010'}
+2024-04-01 19:27:55,437 | INFO | requests_utils.py: 23|响应状态码为：200
+2024-04-01 19:27:55,437 | INFO | requests_utils.py: 24|响应success为：False
+2024-04-01 19:27:55,437 | INFO | requests_utils.py: 25|响应message为：用户名或密码错误
+2024-04-01 19:27:55,437 | INFO | test_login.py: 85|用例执行成功，请求的结果为：None
+2024-04-01 19:27:55,437 | INFO | test_login.py: 104|用例断言失败
+2024-04-01 19:27:55,437 | INFO | mysql.py: 30|insert into test_result_record(`case_id`, `times`, `response`, `result`) values ("None", "2024-04-01 19:27:55", "False", "2") 
+2024-04-01 19:27:55,438 | ERROR | mysql.py: 31|执行sql语句出错了，错误原因为:(1366, "Incorrect integer value: 'None' for column 'case_id' at row 1")
+2024-04-01 19:27:55,444 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
+2024-04-01 19:27:55,444 | INFO | test_login.py: 82|正在执行密码为空用例，用例id为：3
+2024-04-01 19:27:55,444 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-04-01 19:27:55,444 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-04-01 19:27:55,444 | INFO | requests_utils.py: 9|发送请求的headers为：{'Content-Type': 'application/json'}
+2024-04-01 19:27:55,444 | INFO | requests_utils.py: 10|发送请求的data为：{'username': 'admin', 'password': ''}
+2024-04-01 19:27:55,487 | INFO | requests_utils.py: 23|响应状态码为：200
+2024-04-01 19:27:55,487 | INFO | requests_utils.py: 24|响应success为：False
+2024-04-01 19:27:55,488 | INFO | requests_utils.py: 25|响应message为：用户名或密码错误
+2024-04-01 19:27:55,488 | INFO | test_login.py: 85|用例执行成功，请求的结果为：None
+2024-04-01 19:27:55,488 | INFO | test_login.py: 104|用例断言失败
+2024-04-01 19:27:55,489 | INFO | mysql.py: 30|insert into test_result_record(`case_id`, `times`, `response`, `result`) values ("None", "2024-04-01 19:27:55", "False", "3") 
+2024-04-01 19:27:55,490 | ERROR | mysql.py: 31|执行sql语句出错了，错误原因为:(1366, "Incorrect integer value: 'None' for column 'case_id' at row 1")
+2024-04-01 19:27:55,500 | INFO | test_login.py: 28|------执行测试结束，完成时间为：2024-04-01 19:27:55------

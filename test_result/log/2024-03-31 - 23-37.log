@@ -1,0 +1,1 @@
+2024-03-31 23:37:29,058 | INFO | mysql.py: 28|insert into test_result_record(`case_id`, `times`, `response`, `result`) values ("1", "2024-03-31 23:37:28", "1", "1") 

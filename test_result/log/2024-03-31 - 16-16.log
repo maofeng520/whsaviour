@@ -1,0 +1,21 @@
+2024-03-31 16:16:09,733 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-03-31 16:16:09,733 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-03-31 16:16:09,734 | INFO | requests_utils.py: 9|发送请求的headers为：{"Content-Type":"application/json"}
+2024-03-31 16:16:09,734 | INFO | requests_utils.py: 10|发送请求的data为：{
+"username": "admin",
+"password":"10010.com"
+}
+2024-03-31 16:16:09,792 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-03-31 16:16:09,792 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-03-31 16:16:09,792 | INFO | requests_utils.py: 9|发送请求的headers为：{"Content-Type":"application/json"}
+2024-03-31 16:16:09,792 | INFO | requests_utils.py: 10|发送请求的data为：{
+"username": "admin",
+"password":"10010"
+}
+2024-03-31 16:16:09,796 | INFO | requests_utils.py: 7|发送请求的url为：http://systest.whsaviour.com/platform-admin/sys/login
+2024-03-31 16:16:09,796 | INFO | requests_utils.py: 8|发送请求的method为：post
+2024-03-31 16:16:09,796 | INFO | requests_utils.py: 9|发送请求的headers为：{"Content-Type":"application/json"}
+2024-03-31 16:16:09,796 | INFO | requests_utils.py: 10|发送请求的data为：{
+"username": "admin",
+"password":""
+}
