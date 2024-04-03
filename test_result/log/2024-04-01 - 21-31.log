@@ -1,9 +1,0 @@
-2024-04-01 21:31:57,438 | INFO | test_login.py: 25|------开始执行测试用例，开始时间为：2024-04-01 21:31:57------
-2024-04-01 21:31:57,439 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
-2024-04-01 21:31:57,441 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
-2024-04-01 21:31:57,442 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
-2024-04-01 21:31:57,444 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
-2024-04-01 21:31:57,446 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
-2024-04-01 21:31:57,447 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
-2024-04-01 21:31:57,512 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
-2024-04-01 21:31:57,513 | INFO | test_login.py: 28|------执行测试结束，完成时间为：2024-04-01 21:31:57------

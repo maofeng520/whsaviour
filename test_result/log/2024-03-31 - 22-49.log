@@ -1,5 +1,0 @@
-2024-03-31 22:49:01,363 | INFO | test_login.py: 25|------开始执行测试用例，开始时间为：2024-03-31 22:49:01------
-2024-03-31 22:49:01,364 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
-2024-03-31 22:49:01,426 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
-2024-03-31 22:49:01,435 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}
-2024-03-31 22:49:01,442 | INFO | test_login.py: 28|------执行测试结束，完成时间为：2024-03-31 22:49:01------

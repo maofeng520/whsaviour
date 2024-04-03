@@ -1,1 +1,0 @@
-2024-03-31 20:34:51,749 | INFO | mysql.py: 15|数据库查询结果为：{'id': 1, 'web': '急救云', 'key': 'url_api', 'value': 'http://systest.whsaviour.com/platform-admin'}

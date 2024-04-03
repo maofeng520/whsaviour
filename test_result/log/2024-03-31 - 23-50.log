@@ -1,5 +1,0 @@
-2024-03-31 23:50:00,993 | INFO | mysql.py: 30|insert into test_result_record(`case_id`, `times`, `response`, `result`) values ("1", "2024-03-31 23:50:00", ""false"", "1") 
-2024-03-31 23:50:00,993 | ERROR | mysql.py: 31|执行sql语句出错了，错误原因为:(1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'false"", "1")\' at line 1')
-2024-03-31 23:50:33,967 | INFO | mysql.py: 28|insert into test_result_record(`case_id`, `times`, `response`, `result`) values ("1", "2024-03-31 23:50:33", "false", "1") 
-2024-03-31 23:50:58,554 | INFO | mysql.py: 30|insert into test_result_record(`case_id`, `times`, `response`, `result`) values ("None", "2024-03-31 23:50:58", "false", "1") 
-2024-03-31 23:50:58,554 | ERROR | mysql.py: 31|执行sql语句出错了，错误原因为:(1366, "Incorrect integer value: 'None' for column 'case_id' at row 1")

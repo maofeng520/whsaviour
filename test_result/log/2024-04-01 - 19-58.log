@@ -1,1 +1,0 @@
-2024-04-01 19:58:49,882 | INFO | mysql.py: 28|insert into test_result_record(`case_id`, `times`, `response`, `result`) values ("1", "2024-04-01 19:58:49", "<Response [200]>", "False") 
